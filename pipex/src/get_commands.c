@@ -6,7 +6,7 @@
 /*   By: alvasanc <alvasanc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 11:33:01 by alvasanc          #+#    #+#             */
-/*   Updated: 2024/09/04 11:53:52 by alvasanc         ###   ########.fr       */
+/*   Updated: 2024/09/06 10:51:39 by alvasanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	**get_path(char **envp)
 {
-	char	complete_path;
-	char 	**splitted_path;
+	char	*complete_path;
+	char	**splitted_path;
 
 	complete_path = NULL;
 	while (*envp)

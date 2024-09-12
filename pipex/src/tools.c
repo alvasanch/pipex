@@ -6,7 +6,7 @@
 /*   By: alvasanc <alvasanc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 10:43:25 by alvasanc          #+#    #+#             */
-/*   Updated: 2024/09/04 11:59:05 by alvasanc         ###   ########.fr       */
+/*   Updated: 2024/09/05 10:37:36 by alvasanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ void	free_matrix(char **str)
 int	count_char(char *str, int c)
 {
 	int	i;
-	int	count_char; 
+	int	count_char;
 
 	i = 0;
 	count_char = 0;
