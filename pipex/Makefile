@@ -6,7 +6,7 @@
 #    By: alvasanc <alvasanc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/27 10:29:29 by alvasanc          #+#    #+#              #
-#    Updated: 2024/09/04 11:32:48 by alvasanc         ###   ########.fr        #
+#    Updated: 2024/09/12 10:51:07 by alvasanc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ BLUE      = \033[34;1m
 CYAN      = \033[37;1m
 RED		  = \033[31;1m
 
-SRC_FILES = pars tools get_commands
+SRC_FILES = pars tools get_commands processes main
 
 SRC = $(addprefix $(SRC_DIR), $(addsuffix .c, $(SRC_FILES)))
 OBJ = $(addprefix $(OBJ_DIR), $(addsuffix .o, $(SRC_FILES)))
